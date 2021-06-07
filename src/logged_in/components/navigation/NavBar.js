@@ -341,24 +341,7 @@ function NavBar(props) {
         mobile: <MessageIcon className="text-white" />
       }
     },
-    // {
-    //   link: "/c/subscription",
-    //   name: "Subscription",
-    //   onClick: closeMobileDrawer,
-    //   icon: {
-    //     desktop: (
-    //       <AccountBalanceIcon
-    //         className={
-    //           selectedTab === "Subscription"
-    //             ? classes.textPrimary
-    //             : "text-white"
-    //         }
-    //         fontSize="small"
-    //       />
-    //     ),
-    //     mobile: <AccountBalanceIcon className="text-white" />
-    //   }
-    // },
+    
     {
       link: "/",
       name: "Logout",
