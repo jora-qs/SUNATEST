@@ -59,7 +59,8 @@ const useStyles = makeStyles((theme) => ({
     // marginRight: theme.spacing(15),
     // padding: 2,
     justifyContent: "space-between",
-    width: "auto"
+    width: "auto",
+    // fontWeight: "50px"
   },
   BtnTrue: {
     backgroundColor: theme.palette.primary
@@ -1029,7 +1030,7 @@ function History(props) {
               <Grid container>
                 <Grid item md={11}>
                   <Typography
-                    variant="h6"
+                    variant="subtitle2"
                     // display="inline"
                     align="center"
                     className={classes.InfoClass}
@@ -1043,7 +1044,7 @@ function History(props) {
                   <br />
                   <br />
                   <Typography
-                    variant="h6"
+                    variant="subtitle2"
                     display="inline"
                     className={classes.InfoClass}
                   >
@@ -1053,7 +1054,7 @@ function History(props) {
                 <Grid item md={12}>
                   <br />
                   <Typography
-                    variant="h6"
+                    variant="subtitle2"
                     display="inline"
                     className={classes.InfoClass}
                   >
@@ -1064,7 +1065,7 @@ function History(props) {
                 <Grid item md={12}>
                   <br />
                   <Typography
-                    variant="h6"
+                    variant="subtitle2"
                     display="inline"
                     className={classes.InfoClass}
                   >
@@ -1075,7 +1076,7 @@ function History(props) {
                 <Grid item md={12}>
                   <br />
                   <Typography
-                    variant="h6"
+                    variant="subtitle2"
                     display="inline"
                     className={classes.InfoClass}
                   >
@@ -1086,7 +1087,7 @@ function History(props) {
                 <Grid item md={12}>
                   <br />
                   <Typography
-                    variant="h6"
+                    variant="subtitle2"
                     display="inline"
                     className={classes.InfoClass}
                   >
@@ -1097,7 +1098,7 @@ function History(props) {
                 <Grid item md={12}>
                   <br />
                   <Typography
-                    variant="h6"
+                    variant="subtitle2"
                     display="inline"
                     className={classes.InfoClass}
                   >
@@ -1107,7 +1108,7 @@ function History(props) {
                 <Grid item md={12}>
                   <br />
                   <Typography
-                    variant="h6"
+                    variant="subtitle2"
                     display="inline"
                     className={classes.InfoClass}
                   >

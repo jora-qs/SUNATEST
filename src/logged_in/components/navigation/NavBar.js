@@ -459,7 +459,7 @@ function NavBar(props) {
                 </Menu>
               </ListItem>
             )}
-            {isWidthUp("sm", width) && (
+            {/* {isWidthUp("sm", width) && (  ////////////////////////  Strategy Setting ///////////////////////////////
               <ListItem
                 disableGutters
                 className={classNames(classes.iconListItem, classes.smBordered)}
@@ -478,7 +478,7 @@ function NavBar(props) {
                   </Button>
                 </Link>
               </ListItem>
-            )}
+            )} */}
           </Box>
         </Toolbar>
       </AppBar>
